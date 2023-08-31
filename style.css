@@ -263,3 +263,46 @@ main > .finance_lg {
     margin-right: 10px;
   }
 }
+
+.featured_stories {
+  background-color: #ffffff;
+
+  border: 1px solid #f2f3f6;
+
+  width: 316px;
+
+  & > h1 {
+    font-size: 14px;
+    letter-spacing: 1.531px;
+    text-transform: uppercase;
+
+    margin-top: 35px;
+    margin-left: 27.5px;
+  }
+}
+
+.featured_stories_title {
+  height: 83px;
+
+  margin-top: 30px;
+
+  display: flex;
+
+  color: #1d1f24;
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+
+  width: 227px;
+
+  border-bottom: 1px solid #f2f3f6;
+
+  & > span {
+    opacity: 0.1662;
+
+    font-size: 18px;
+
+    margin-right: 26px;
+  }
+}
