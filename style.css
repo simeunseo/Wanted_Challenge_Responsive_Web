@@ -556,6 +556,11 @@ main {
 
   background-color: #ff565c;
   color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 25px;
 }
 
 #read_more > h1 {
@@ -566,6 +571,8 @@ main {
 
   margin-bottom: 20px;
   margin-top: 30px;
+
+  width: 263px;
 }
 
 #read_more > p {
@@ -576,6 +583,8 @@ main {
   line-height: 30px;
 
   margin-bottom: 30px;
+
+  width: 252px;
 }
 
 #read_more > button {
