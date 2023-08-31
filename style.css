@@ -240,7 +240,13 @@ main > .finance_lg {
   line-height: 30px;
 
   display: flex;
+  align-items: center;
   gap: 16px;
+
+  & > span {
+    display: flex;
+    align-items: center;
+  }
 
   & .share {
     width: 18px;
@@ -305,4 +311,51 @@ main > .finance_lg {
 
     margin-right: 26px;
   }
+}
+
+/* main small articles */
+.small_articles {
+  color: #ffffff;
+}
+
+.small_articles > .entertainment {
+  background-image: url(./assets/main_entertainment_bg.png);
+
+  height: 274px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.small_articles > .entertainment > h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 157px;
+  height: 40px;
+
+  background-color: #ff565c;
+  letter-spacing: 1.75px;
+
+  font-size: 14px;
+
+  margin-bottom: 19px;
+  margin-top: 30px;
+}
+
+.small_articles > .entertainment > .contents {
+  margin-left: 25px;
+}
+
+.small_articles > .entertainment > .contents > h1 {
+  width: 484px;
+
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.2px;
+
+  margin-bottom: 44px;
 }
