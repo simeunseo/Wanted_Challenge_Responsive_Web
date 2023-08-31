@@ -293,6 +293,10 @@ main {
 /* featured stories */
 
 .featured_stories {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
   grid-row: 3 / 5;
 
   background-color: #ffffff;
@@ -307,6 +311,7 @@ main {
     text-transform: uppercase;
 
     margin-top: 35px;
+    margin-bottom: 30px;
     margin-left: 27.5px;
   }
 }
@@ -314,7 +319,6 @@ main {
 .featured_stories_title {
   height: 83px;
 
-  margin-top: 30px;
   padding-left: 27px;
 
   display: flex;
@@ -528,7 +532,7 @@ main {
   justify-content: center;
   align-items: center;
 
-  width: 104px;
+  width: 137px;
   height: 40px;
 
   background-color: #ff565c;
@@ -553,7 +557,7 @@ main {
   line-height: 30px;
   letter-spacing: -0.2px;
 
-  margin-bottom: 44px;
+  margin-bottom: 74px;
 }
 
 /* read more */
