@@ -315,6 +315,7 @@ main {
   height: 83px;
 
   margin-top: 30px;
+  padding-left: 27px;
 
   display: flex;
 
@@ -334,6 +335,12 @@ main {
     font-size: 18px;
 
     margin-right: 26px;
+  }
+}
+
+.featured_stories_title:nth-child(4) {
+  & > h2 {
+    width: 179px;
   }
 }
 
