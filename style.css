@@ -163,9 +163,13 @@ nav {
   opacity: 0.2;
 }
 
+article {
+  color: #ffffff;
+}
+
 /* main_FINACNE */
 
-main > .finance_lg {
+#finance_lg {
   width: 100%;
   height: 581px;
 
@@ -174,7 +178,6 @@ main > .finance_lg {
   display: flex;
   justify-content: space-between;
 
-  color: #ffffff;
   & > img {
     margin-top: 266px;
 
@@ -189,7 +192,7 @@ main > .finance_lg {
   align-items: center;
 }
 
-.finance_lg > .text_contents > h2 {
+#finance_lg > .text_contents > h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -206,7 +209,7 @@ main > .finance_lg {
   margin-top: 137px;
 }
 
-.finance_lg > .text_contents > h1 {
+#finance_lg > .text_contents > h1 {
   width: 593px;
 
   text-align: center;
@@ -218,7 +221,7 @@ main > .finance_lg {
   margin-bottom: 5px;
 }
 
-.finance_lg > .text_contents > h3 {
+#finance_lg > .text_contents > h3 {
   width: 483px;
 
   font-family: Lato;
@@ -270,6 +273,8 @@ main > .finance_lg {
   }
 }
 
+/* featured stories */
+
 .featured_stories {
   background-color: #ffffff;
 
@@ -313,23 +318,19 @@ main > .finance_lg {
   }
 }
 
-/* main small articles */
-.small_articles {
-  color: #ffffff;
-}
-
 /* entertainment */
 
-.small_articles > .entertainment {
+#entertainment {
   background-image: url(./assets/main_entertainment_bg.png);
-
-  height: 274px;
 
   display: flex;
   flex-direction: column;
+
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
-.small_articles > .entertainment > h2 {
+#entertainment > h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -346,11 +347,11 @@ main > .finance_lg {
   margin-top: 30px;
 }
 
-.small_articles > .entertainment > .contents {
+#entertainment > .contents {
   margin-left: 25px;
 }
 
-.small_articles > .entertainment > .contents > h1 {
+#entertainment > .contents > h1 {
   width: 484px;
 
   font-family: Lato;
@@ -364,16 +365,14 @@ main > .finance_lg {
 
 /* finance */
 
-.small_articles > .finance_sm {
+#finance_sm {
   background-image: url(./assets/main_finance_sm_bg.png);
-
-  height: 274px;
 
   display: flex;
   flex-direction: column;
 }
 
-.small_articles > .finance_sm > h2 {
+#finance_sm > h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -390,11 +389,11 @@ main > .finance_lg {
   margin-top: 30px;
 }
 
-.small_articles > .finance_sm > .contents {
+#finance_sm > .contents {
   margin-left: 25px;
 }
 
-.small_articles > .finance_sm > .contents > h1 {
+#finance_sm > .contents > h1 {
   width: 245px;
 
   font-family: Lato;
@@ -408,16 +407,14 @@ main > .finance_lg {
 
 /* gaming */
 
-.small_articles > .gaming {
+#gaming {
   background-image: url(./assets/main_gaming_bg.png);
-
-  height: 274px;
 
   display: flex;
   flex-direction: column;
 }
 
-.small_articles > .gaming > h2 {
+#gaming > h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -434,11 +431,11 @@ main > .finance_lg {
   margin-top: 30px;
 }
 
-.small_articles > .gaming > .contents {
+#gaming > .contents {
   margin-left: 25px;
 }
 
-.small_articles > .gaming > .contents > h1 {
+#gaming > .contents > h1 {
   width: 245px;
 
   font-family: Lato;
