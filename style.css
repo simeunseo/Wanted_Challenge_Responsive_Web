@@ -157,7 +157,7 @@ header {
   margin-right: 45px;
 }
 
-nav {
+header nav {
   display: flex;
   gap: 59px;
   opacity: 0.2;
@@ -179,6 +179,7 @@ main {
   grid-template-rows: repeat(4, 274px);
 
   margin-top: 40px;
+  margin-bottom: 120px;
 }
 
 /* main_FINACNE */
@@ -618,4 +619,115 @@ main {
   border-bottom: 2px solid #ffffff;
 
   margin-bottom: 46px;
+}
+
+/* footer */
+
+footer {
+  background-color: #1d1f24;
+
+  height: 160px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left-side {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+footer .company_info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  margin-left: 38px;
+
+  width: 185px;
+
+  & > h5 {
+    color: #fff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+
+    opacity: 0.7;
+  }
+
+  & > img {
+    width: 60px;
+  }
+}
+
+footer nav {
+  color: #ffffff;
+  font-size: 14px;
+
+  width: 657px;
+  display: grid;
+  grid-template-columns: repeat(4, 164px);
+  grid-row-gap: 12px;
+}
+
+footer .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+  margin-right: 45px;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+
+  & > .sns > span {
+    width: 62px;
+  }
+
+  & > .sns {
+    display: flex;
+    gap: 18px;
+
+    margin-bottom: 15px;
+  }
+}
+
+.email {
+  height: 35px;
+
+  display: flex;
+  align-items: center;
+}
+
+.email > input {
+  width: 180px;
+  height: 35px;
+
+  border: none;
+  background-color: #ffffff;
+
+  padding: 0;
+  padding-left: 15px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.email > button {
+  width: 120px;
+  height: 35px;
+  background-color: #ff565c;
+  border: none;
+
+  color: #ffffff;
+  font-family: Oswald;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1.5px;
 }
