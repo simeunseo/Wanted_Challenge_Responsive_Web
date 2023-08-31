@@ -405,3 +405,47 @@ main > .finance_lg {
 
   margin-bottom: 44px;
 }
+
+/* gaming */
+
+.small_articles > .gaming {
+  background-image: url(./assets/main_gaming_bg.png);
+
+  height: 274px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.small_articles > .gaming > h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 104px;
+  height: 40px;
+
+  background-color: #ff565c;
+  letter-spacing: 1.75px;
+
+  font-size: 14px;
+
+  margin-bottom: 19px;
+  margin-top: 30px;
+}
+
+.small_articles > .gaming > .contents {
+  margin-left: 25px;
+}
+
+.small_articles > .gaming > .contents > h1 {
+  width: 245px;
+
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.2px;
+
+  margin-bottom: 44px;
+}
